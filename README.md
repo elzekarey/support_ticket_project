@@ -1,8 +1,8 @@
-# 🎟️ Support ticket system
+# Support ticket system
 
 A concurrent-safe ticket assignment system built with Django & Django REST Framework. It ensures that no support agent gets more than 15 tickets and handles concurrent ticket fetching gracefully.
 
-## 🚀 Features
+## Features
 
 - Token-based authentication with JWT
 - Admin can create tickets
@@ -14,7 +14,7 @@ A concurrent-safe ticket assignment system built with Django & Django REST Frame
 
 ---
 
-## 📦 Tech Stack
+## Tech Stack
 
 - **Backend:** Django , Django REST Framework
 - **Auth:** djangorestframework-simplejwt
@@ -24,10 +24,10 @@ A concurrent-safe ticket assignment system built with Django & Django REST Frame
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
-Ticket/
+support_ticket_project/
 ├── tickets/           # Main app
 │   ├── models.py      # User, Ticket models
 │   ├── views.py       # API views
@@ -46,7 +46,7 @@ Ticket/
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the repository
 
@@ -95,7 +95,7 @@ DATABASES = {
 
 ---
 
-## 🛠️ Running the Server
+## Running the Server
 
 ```bash
 python manage.py migrate
@@ -104,7 +104,7 @@ python manage.py runserver
 
 ---
 
-## 🔑 Authentication
+## Authentication
 
 This project uses JWT:
 
@@ -143,6 +143,6 @@ This includes:
 **Khaled Elrefaey**  
 > Backend developer & Python enthusiast
 
-📫 Contact: [alzekarey@gmail.com]
+Contact: [alzekarey@gmail.com]
 
 ---
