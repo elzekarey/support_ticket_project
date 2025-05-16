@@ -87,7 +87,7 @@ DATABASES = {
         'NAME': 'ticket_db',
         'USER': 'ticket_user',
         'PASSWORD': 'ticket_pass',
-        'HOST': 'localhost',
+        'HOST': 'localhost', #If using docker , change htis to db (i.e. the service name in docker-compose.yml)
         'PORT': '5432',
     }
 }
